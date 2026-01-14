@@ -5,18 +5,16 @@
         }
 
         :root {
-            --bg-dark: #0a0f0a;
-            --bg-card: #1a241a;
+            --bg-dark: #0d1b0d;
+            --bg-card: #1a2d1a;
             --dark-green: #004225;
             --racing-green: #014421;
-            --veloce-green: #00a86b;
-            --seafoam: #7fdbca;
-            --accent-1: #00a86b;
-            --accent-2: #7fdbca;
+            --accent-1: #00d084;
+            --accent-2: #5fffc9;
             --text-primary: #ffffff;
-            --text-secondary: #a1a1aa;
-            --gradient: linear-gradient(135deg, #014421 0%, #00a86b 50%, #7fdbca 100%);
-            --gradient-subtle: linear-gradient(135deg, #004225 0%, #00a86b 100%);
+            --text-secondary: #c7c7cc;
+            --gradient: linear-gradient(135deg, #00a86b 0%, #00d084 50%, #5fffc9 100%);
+            --gradient-subtle: linear-gradient(135deg, #00a86b 0%, #00d084 100%);
         }
 
         body {
@@ -105,10 +103,10 @@
         .hero-tag {
             display: inline-block;
             padding: 0.5rem 1.5rem;
-            background: rgba(0, 168, 107, 0.1);
-            border: 1px solid rgba(0, 168, 107, 0.3);
+            background: rgba(0, 168, 107, 0.15);
+            border: 1px solid rgba(0, 168, 107, 0.15);
             border-radius: 50px;
-            color: var(--seafoam);
+            color: var(--accent-2);
             font-size: 0.9rem;
             margin-bottom: 2rem;
             animation: fadeInUp 0.8s ease-out;
@@ -181,7 +179,7 @@
         }
 
         .btn-secondary:hover {
-            border-color: var(--veloce-green);
+            border-color: var(--accent-1);
             background: rgba(0, 168, 107, 0.1);
         }
 
@@ -230,7 +228,7 @@
         .project-image {
             width: 100%;
             height: 220px;
-            background: linear-gradient(135deg, rgba(0, 168, 107, 0.2), rgba(127, 219, 202, 0.2));
+            background: linear-gradient(135deg, rgba(0, 168, 107, 0.25), rgba(95, 255, 201, 0.25));
             display: flex;
             align-items: center;
             justify-content: center;
@@ -275,11 +273,11 @@
 
         .tech-tag {
             padding: 0.4rem 0.8rem;
-            background: rgba(0, 168, 107, 0.1);
-            border: 1px solid rgba(0, 168, 107, 0.3);
+            background: rgba(0, 168, 107, 0.15);
+            border: 1px solid rgba(95, 255, 201, 0.4);
             border-radius: 6px;
             font-size: 0.85rem;
-            color: var(--seafoam);
+            color: var(--accent-2);
         }
 
         .project-links {
@@ -378,7 +376,7 @@
         }
 
         .contact-item:hover {
-            color: var(--veloce-green);
+            color: var(--accent-1);
         }
 
         .contact-form {
@@ -416,7 +414,7 @@
         .form-group input:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: var(--veloce-green);
+            border-color: var(--accent-1);
             box-shadow: 0 0 0 3px rgba(0, 168, 107, 0.1);
         }
 
